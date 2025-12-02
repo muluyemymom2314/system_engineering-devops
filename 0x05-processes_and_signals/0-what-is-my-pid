@@ -1,1 +1,5 @@
-Add 0-what-is-my-pid script
+#!/usr/bin/env bash
+# A Bash script that displays its own Process ID (PID)
+
+echo $$   # prints the PID of the current script
+
